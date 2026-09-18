@@ -1,0 +1,18 @@
+name: NolootSpread
+version: '1.9'
+main: org.simaspog.nolootSpread.NolootSpread
+api-version: '1.20'
+authors: [ simaspog ]
+website: https://builtbybit.com/members/simaspog1.544935/
+description: Prevent Loot Spread Plugin
+commands:
+  nolootspread:
+    description: Reload the NoLootSpread configuration
+    usage: /nolootspread reload
+    aliases: [nls]
+    permission: nolootspread.reload
+
+permissions:
+  nolootspread.reload:
+    description: Allows reloading the plugin configuration
+    default: op

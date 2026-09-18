@@ -1,0 +1,21 @@
+# NoLootSpread Configuration
+# Configure how items spread when players die
+
+# Enable or disable item spread entirely
+# If true, items will drop in a single stack at death location
+enable-spread: true
+
+# Maximum spread radius in blocks
+# Items will be randomly distributed within this radius
+# Default: 1.0 (1 block radius)
+# Set to 0 for no spread
+spread-radius: 1.0
+
+# Vertical velocity applied to dropped items
+# Higher values make items "pop up" more
+# Default: 0.1
+drop-velocity: 0.1
+
+# Check interval for keepInventory gamerule (in seconds)
+# How often the plugin checks if keepInventory has been disabled
+check-interval: 30
